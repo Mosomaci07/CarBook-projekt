@@ -1,0 +1,437 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3500" height="2000" viewBox="0 0 3500 2000" role="img" aria-labelledby="mainTitle mainDesc">
+<title id="mainTitle">CarBook – Adatbázisterv – ER-diagram</title>
+<desc id="mainDesc">A CarBook webes autónyilvántartó rendszer tíz táblájának, mezőinek, kulcsainak, adattípusainak és kilenc idegenkulcs-kapcsolatának ER diagramja.</desc>
+<defs>
+ <pattern id="dotgrid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#213247" opacity=".68"/></pattern>
+ <filter id="shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#040a17" flood-opacity=".3"/></filter>
+ <style><![CDATA[
+    .rel{stroke:#65adc9;stroke-width:3.1;stroke-linecap:round;stroke-linejoin:round;fill:none}
+    .relationText{fill:#bdd8e7;font-family:Arial,'DejaVu Sans',sans-serif;font-size:18;font-weight:600}
+    .tblTitle{fill:#14263a;font-family:Arial,'DejaVu Sans',sans-serif;font-size:23;font-weight:700;letter-spacing:.1px}
+    .cell{fill:#172538;font-family:Arial,'DejaVu Sans',sans-serif;font-size:16.8}
+    .type{fill:#41526a;font-family:Arial,'DejaVu Sans',sans-serif;font-size:15.8}
+    .key{fill:#fff;font-family:Arial,'DejaVu Sans',sans-serif;font-size:13.6;font-weight:700}
+    .footer{fill:#acbcd0;font-family:Arial,'DejaVu Sans',sans-serif;font-size:20}
+ ]]></style>
+</defs>
+<rect width="100%" height="100%" fill="#101a2c"/>
+<rect width="100%" height="100%" fill="url(#dotgrid)"/>
+<rect x="86" y="80" width="8" height="87" rx="4" fill="#4bb6d0"/>
+<text x="122" y="119" font-family="Arial,DejaVu Sans,sans-serif" font-size="49" font-weight="700" fill="#f7fbff">CarBook · Adatbázisterv</text>
+<text x="122" y="159" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" fill="#a9c0d4">ER-diagram · MySQL · 10 tábla · 9 kapcsolat</text>
+<line x1="100" y1="214" x2="3400" y2="214" stroke="#314258" stroke-width="2"/>
+
+<path d="M1450,764 L1230,764 L1230,746.5 L733,746.5" class="rel"/>
+<path d="M733,746.5 L715,736.5 M733,746.5 L715,746.5 M733,746.5 L715,756.5" class="rel"/>
+<line x1="1458" y1="754" x2="1458" y2="774" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<text x="1415" y="745" class="relationText">1</text>
+<text x="741" y="733.5" class="relationText">N</text>
+<path d="M1450,849 L1305,849 L1305,1276.5 L733,1276.5" class="rel"/>
+<path d="M733,1276.5 L715,1266.5 M733,1276.5 L715,1276.5 M733,1276.5 L715,1286.5" class="rel"/>
+<line x1="1458" y1="839" x2="1458" y2="859" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<text x="1415" y="830" class="relationText">1</text>
+<text x="741" y="1263.5" class="relationText">N</text>
+<path d="M1450,963 L1375,963 L1375,1706.5 L733,1706.5" class="rel"/>
+<path d="M733,1706.5 L715,1696.5 M733,1706.5 L715,1706.5 M733,1706.5 L715,1716.5" class="rel"/>
+<line x1="1458" y1="953" x2="1458" y2="973" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<text x="1415" y="944" class="relationText">1</text>
+<text x="741" y="1693.5" class="relationText">N</text>
+<path d="M2050,767 L2175,767 L2175,746.5 L2762,746.5" class="rel"/>
+<path d="M2762,746.5 L2780,736.5 M2762,746.5 L2780,746.5 M2762,746.5 L2780,756.5" class="rel"/>
+<line x1="2042" y1="757" x2="2042" y2="777" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<text x="2071" y="749" class="relationText">1</text>
+<text x="2732" y="730.5" class="relationText">N</text>
+<path d="M2050,842 L2445,842 L2445,1131.5 L2762,1131.5" class="rel"/>
+<path d="M2762,1131.5 L2780,1121.5 M2762,1131.5 L2780,1131.5 M2762,1131.5 L2780,1141.5" class="rel"/>
+<line x1="2042" y1="832" x2="2042" y2="852" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<text x="2071" y="824" class="relationText">1</text>
+<text x="2732" y="1115.5" class="relationText">N</text>
+<path d="M2050,939 L2305,939 L2305,1586.5 L2762,1586.5" class="rel"/>
+<path d="M2762,1586.5 L2780,1576.5 M2762,1586.5 L2780,1586.5 M2762,1586.5 L2780,1596.5" class="rel"/>
+<line x1="2042" y1="929" x2="2042" y2="949" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<text x="2071" y="921" class="relationText">1</text>
+<text x="2732" y="1570.5" class="relationText">N</text>
+<path d="M1750.0,497 L1750.0,632" class="rel"/>
+<line x1="1741.0" y1="506" x2="1759.0" y2="506" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<path d="M1750.0,632 L1740.0,650 M1750.0,632 L1750.0,650 M1750.0,632 L1760.0,650" class="rel"/>
+<text x="1769.0" y="525" class="relationText">1</text>
+<text x="1770.0" y="626" class="relationText">N</text>
+<path d="M415.0,439 L415.0,632" class="rel"/>
+<line x1="406.0" y1="448" x2="424.0" y2="448" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<path d="M415.0,632 L405.0,650 M415.0,632 L415.0,650 M415.0,632 L425.0,650" class="rel"/>
+<text x="434.0" y="467" class="relationText">1</text>
+<text x="435.0" y="626" class="relationText">N</text>
+<path d="M3080.0,381 L3080.0,632" class="rel"/>
+<line x1="3071.0" y1="390" x2="3089.0" y2="390" stroke="#6ea3bf" stroke-width="3" fill="none"/>
+<path d="M3080.0,632 L3070.0,650 M3080.0,632 L3080.0,650 M3080.0,632 L3090.0,650" class="rel"/>
+<text x="3099.0" y="409" class="relationText">1</text>
+<text x="3100.0" y="626" class="relationText">N</text>
+<g aria-label="service_centers tábla" filter="url(#shadow)"><rect x="115" y="270" width="600" height="169" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M128,270 H702 Q715,270 715,283 V323 H115 V283 Q115,270 128,270" fill="#eaf0f6"/>
+<rect x="115" y="321" width="600" height="2" fill="#778da6"/>
+<text x="415.0" y="305" class="tblTitle" text-anchor="middle">service_centers</text>
+<line x1="181" y1="323" x2="181" y2="439" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="468" y1="323" x2="468" y2="439" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="125" y="328" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="147.5" y="342.3" text-anchor="middle" class="key">PK</text>
+<text x="196" y="343" class="cell" font-weight="700">service_center_id</text>
+<text x="483" y="343" class="type">INT UNSIGNED</text>
+<rect x="116" y="352" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="352" x2="715" y2="352" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="372" class="cell" >name</text>
+<text x="483" y="372" class="type">VARCHAR(120)</text>
+<line x1="115" y1="381" x2="715" y2="381" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="401" class="cell" >address</text>
+<text x="483" y="401" class="type">VARCHAR(255)</text>
+<rect x="116" y="410" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="410" x2="715" y2="410" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="430" class="cell" >phone</text>
+<text x="483" y="430" class="type">VARCHAR(30)</text>
+</g>
+<g aria-label="users tábla" filter="url(#shadow)"><rect x="1450" y="270" width="600" height="227" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M1463,270 H2037 Q2050,270 2050,283 V323 H1450 V283 Q1450,270 1463,270" fill="#eaf0f6"/>
+<rect x="1450" y="321" width="600" height="2" fill="#778da6"/>
+<text x="1750.0" y="305" class="tblTitle" text-anchor="middle">users</text>
+<line x1="1516" y1="323" x2="1516" y2="497" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="1803" y1="323" x2="1803" y2="497" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="1460" y="328" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="1482.5" y="342.3" text-anchor="middle" class="key">PK</text>
+<text x="1531" y="343" class="cell" font-weight="700">user_id</text>
+<text x="1818" y="343" class="type">INT UNSIGNED</text>
+<rect x="1451" y="352" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="352" x2="2050" y2="352" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="372" class="cell" >full_name</text>
+<text x="1818" y="372" class="type">VARCHAR(100)</text>
+<line x1="1450" y1="381" x2="2050" y2="381" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="1460" y="386" width="45" height="19" rx="5" fill="#8160a2"/>
+<text x="1482.5" y="400.3" text-anchor="middle" class="key">UQ</text>
+<text x="1531" y="401" class="cell" >email</text>
+<text x="1818" y="401" class="type">VARCHAR(150)</text>
+<rect x="1451" y="410" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="410" x2="2050" y2="410" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="430" class="cell" >password_hash</text>
+<text x="1818" y="430" class="type">VARCHAR(255)</text>
+<line x1="1450" y1="439" x2="2050" y2="439" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="459" class="cell" >role</text>
+<text x="1818" y="459" class="type">ENUM</text>
+<rect x="1451" y="468" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="468" x2="2050" y2="468" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="488" class="cell" >created_at</text>
+<text x="1818" y="488" class="type">TIMESTAMP</text>
+</g>
+<g aria-label="expense_categories tábla" filter="url(#shadow)"><rect x="2780" y="270" width="600" height="111" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M2793,270 H3367 Q3380,270 3380,283 V323 H2780 V283 Q2780,270 2793,270" fill="#eaf0f6"/>
+<rect x="2780" y="321" width="600" height="2" fill="#778da6"/>
+<text x="3080.0" y="305" class="tblTitle" text-anchor="middle">expense_categories</text>
+<line x1="2846" y1="323" x2="2846" y2="381" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="3133" y1="323" x2="3133" y2="381" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="2790" y="328" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="2812.5" y="342.3" text-anchor="middle" class="key">PK</text>
+<text x="2861" y="343" class="cell" font-weight="700">category_id</text>
+<text x="3148" y="343" class="type">INT UNSIGNED</text>
+<rect x="2781" y="352" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="352" x2="3380" y2="352" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="2790" y="357" width="45" height="19" rx="5" fill="#8160a2"/>
+<text x="2812.5" y="371.3" text-anchor="middle" class="key">UQ</text>
+<text x="2861" y="372" class="cell" >name</text>
+<text x="3148" y="372" class="type">VARCHAR(80)</text>
+</g>
+<g aria-label="services tábla" filter="url(#shadow)"><rect x="115" y="650" width="600" height="343" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M128,650 H702 Q715,650 715,663 V703 H115 V663 Q115,650 128,650" fill="#eaf0f6"/>
+<rect x="115" y="701" width="600" height="2" fill="#778da6"/>
+<text x="415.0" y="685" class="tblTitle" text-anchor="middle">services</text>
+<line x1="181" y1="703" x2="181" y2="993" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="468" y1="703" x2="468" y2="993" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="125" y="708" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="147.5" y="722.3" text-anchor="middle" class="key">PK</text>
+<text x="196" y="723" class="cell" font-weight="700">service_id</text>
+<text x="483" y="723" class="type">INT UNSIGNED</text>
+<rect x="116" y="732" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="732" x2="715" y2="732" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="125" y="737" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="147.5" y="751.3" text-anchor="middle" class="key">FK</text>
+<text x="196" y="752" class="cell" >car_id</text>
+<text x="483" y="752" class="type">INT UNSIGNED</text>
+<line x1="115" y1="761" x2="715" y2="761" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="125" y="766" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="147.5" y="780.3" text-anchor="middle" class="key">FK</text>
+<text x="196" y="781" class="cell" >service_center_id</text>
+<text x="483" y="781" class="type">INT UNSIGNED</text>
+<rect x="116" y="790" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="790" x2="715" y2="790" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="810" class="cell" >service_date</text>
+<text x="483" y="810" class="type">DATE</text>
+<line x1="115" y1="819" x2="715" y2="819" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="839" class="cell" >mileage_km</text>
+<text x="483" y="839" class="type">INT UNSIGNED</text>
+<rect x="116" y="848" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="848" x2="715" y2="848" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="868" class="cell" >work_description</text>
+<text x="483" y="868" class="type">TEXT</text>
+<line x1="115" y1="877" x2="715" y2="877" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="897" class="cell" >parts_cost</text>
+<text x="483" y="897" class="type">DECIMAL(12,2)</text>
+<rect x="116" y="906" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="906" x2="715" y2="906" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="926" class="cell" >labor_cost</text>
+<text x="483" y="926" class="type">DECIMAL(12,2)</text>
+<line x1="115" y1="935" x2="715" y2="935" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="955" class="cell" >notes</text>
+<text x="483" y="955" class="type">TEXT</text>
+<rect x="116" y="964" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="964" x2="715" y2="964" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="984" class="cell" >created_at</text>
+<text x="483" y="984" class="type">TIMESTAMP</text>
+</g>
+<g aria-label="cars tábla" filter="url(#shadow)"><rect x="1450" y="650" width="600" height="430" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M1463,650 H2037 Q2050,650 2050,663 V703 H1450 V663 Q1450,650 1463,650" fill="#eaf0f6"/>
+<rect x="1450" y="701" width="600" height="2" fill="#778da6"/>
+<text x="1750.0" y="685" class="tblTitle" text-anchor="middle">cars</text>
+<line x1="1516" y1="703" x2="1516" y2="1080" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="1803" y1="703" x2="1803" y2="1080" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="1460" y="708" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="1482.5" y="722.3" text-anchor="middle" class="key">PK</text>
+<text x="1531" y="723" class="cell" font-weight="700">car_id</text>
+<text x="1818" y="723" class="type">INT UNSIGNED</text>
+<rect x="1451" y="732" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="732" x2="2050" y2="732" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="1460" y="737" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="1482.5" y="751.3" text-anchor="middle" class="key">FK</text>
+<text x="1531" y="752" class="cell" >user_id</text>
+<text x="1818" y="752" class="type">INT UNSIGNED</text>
+<line x1="1450" y1="761" x2="2050" y2="761" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="781" class="cell" >brand</text>
+<text x="1818" y="781" class="type">VARCHAR(80)</text>
+<rect x="1451" y="790" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="790" x2="2050" y2="790" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="810" class="cell" >model</text>
+<text x="1818" y="810" class="type">VARCHAR(80)</text>
+<line x1="1450" y1="819" x2="2050" y2="819" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="839" class="cell" >manufacture_year</text>
+<text x="1818" y="839" class="type">SMALLINT UNSIGNED</text>
+<rect x="1451" y="848" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="848" x2="2050" y2="848" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="868" class="cell" >engine</text>
+<text x="1818" y="868" class="type">VARCHAR(100)</text>
+<line x1="1450" y1="877" x2="2050" y2="877" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="897" class="cell" >fuel_type</text>
+<text x="1818" y="897" class="type">VARCHAR(30)</text>
+<rect x="1451" y="906" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="906" x2="2050" y2="906" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="926" class="cell" >power_hp</text>
+<text x="1818" y="926" class="type">SMALLINT UNSIGNED</text>
+<line x1="1450" y1="935" x2="2050" y2="935" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="955" class="cell" >mileage_km</text>
+<text x="1818" y="955" class="type">INT UNSIGNED</text>
+<rect x="1451" y="964" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="964" x2="2050" y2="964" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="984" class="cell" >license_plate</text>
+<text x="1818" y="984" class="type">VARCHAR(20)</text>
+<line x1="1450" y1="993" x2="2050" y2="993" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="1460" y="998" width="45" height="19" rx="5" fill="#8160a2"/>
+<text x="1482.5" y="1012.3" text-anchor="middle" class="key">UQ</text>
+<text x="1531" y="1013" class="cell" >vin</text>
+<text x="1818" y="1013" class="type">VARCHAR(17)</text>
+<rect x="1451" y="1022" width="598" height="29" fill="#f8fafc"/>
+<line x1="1450" y1="1022" x2="2050" y2="1022" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="1042" class="cell" >image_path</text>
+<text x="1818" y="1042" class="type">VARCHAR(255)</text>
+<line x1="1450" y1="1051" x2="2050" y2="1051" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="1531" y="1071" class="cell" >created_at</text>
+<text x="1818" y="1071" class="type">TIMESTAMP</text>
+</g>
+<g aria-label="expenses tábla" filter="url(#shadow)"><rect x="2780" y="650" width="600" height="227" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M2793,650 H3367 Q3380,650 3380,663 V703 H2780 V663 Q2780,650 2793,650" fill="#eaf0f6"/>
+<rect x="2780" y="701" width="600" height="2" fill="#778da6"/>
+<text x="3080.0" y="685" class="tblTitle" text-anchor="middle">expenses</text>
+<line x1="2846" y1="703" x2="2846" y2="877" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="3133" y1="703" x2="3133" y2="877" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="2790" y="708" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="2812.5" y="722.3" text-anchor="middle" class="key">PK</text>
+<text x="2861" y="723" class="cell" font-weight="700">expense_id</text>
+<text x="3148" y="723" class="type">INT UNSIGNED</text>
+<rect x="2781" y="732" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="732" x2="3380" y2="732" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="2790" y="737" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="2812.5" y="751.3" text-anchor="middle" class="key">FK</text>
+<text x="2861" y="752" class="cell" >car_id</text>
+<text x="3148" y="752" class="type">INT UNSIGNED</text>
+<line x1="2780" y1="761" x2="3380" y2="761" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="2790" y="766" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="2812.5" y="780.3" text-anchor="middle" class="key">FK</text>
+<text x="2861" y="781" class="cell" >category_id</text>
+<text x="3148" y="781" class="type">INT UNSIGNED</text>
+<rect x="2781" y="790" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="790" x2="3380" y2="790" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="810" class="cell" >expense_date</text>
+<text x="3148" y="810" class="type">DATE</text>
+<line x1="2780" y1="819" x2="3380" y2="819" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="839" class="cell" >amount</text>
+<text x="3148" y="839" class="type">DECIMAL(12,2)</text>
+<rect x="2781" y="848" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="848" x2="3380" y2="848" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="868" class="cell" >description</text>
+<text x="3148" y="868" class="type">VARCHAR(255)</text>
+</g>
+<g aria-label="fuelings tábla" filter="url(#shadow)"><rect x="115" y="1180" width="600" height="314" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M128,1180 H702 Q715,1180 715,1193 V1233 H115 V1193 Q115,1180 128,1180" fill="#eaf0f6"/>
+<rect x="115" y="1231" width="600" height="2" fill="#778da6"/>
+<text x="415.0" y="1215" class="tblTitle" text-anchor="middle">fuelings</text>
+<line x1="181" y1="1233" x2="181" y2="1494" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="468" y1="1233" x2="468" y2="1494" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="125" y="1238" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="147.5" y="1252.3" text-anchor="middle" class="key">PK</text>
+<text x="196" y="1253" class="cell" font-weight="700">fueling_id</text>
+<text x="483" y="1253" class="type">INT UNSIGNED</text>
+<rect x="116" y="1262" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1262" x2="715" y2="1262" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="125" y="1267" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="147.5" y="1281.3" text-anchor="middle" class="key">FK</text>
+<text x="196" y="1282" class="cell" >car_id</text>
+<text x="483" y="1282" class="type">INT UNSIGNED</text>
+<line x1="115" y1="1291" x2="715" y2="1291" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1311" class="cell" >fueling_date</text>
+<text x="483" y="1311" class="type">DATE</text>
+<rect x="116" y="1320" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1320" x2="715" y2="1320" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1340" class="cell" >mileage_km</text>
+<text x="483" y="1340" class="type">INT UNSIGNED</text>
+<line x1="115" y1="1349" x2="715" y2="1349" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1369" class="cell" >liters</text>
+<text x="483" y="1369" class="type">DECIMAL(8,2)</text>
+<rect x="116" y="1378" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1378" x2="715" y2="1378" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1398" class="cell" >price_per_liter</text>
+<text x="483" y="1398" class="type">DECIMAL(10,2)</text>
+<line x1="115" y1="1407" x2="715" y2="1407" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1427" class="cell" >total_cost</text>
+<text x="483" y="1427" class="type">DECIMAL(12,2)</text>
+<rect x="116" y="1436" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1436" x2="715" y2="1436" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1456" class="cell" >is_full_tank</text>
+<text x="483" y="1456" class="type">BOOLEAN</text>
+<line x1="115" y1="1465" x2="715" y2="1465" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1485" class="cell" >notes</text>
+<text x="483" y="1485" class="type">TEXT</text>
+</g>
+<g aria-label="fault_codes tábla" filter="url(#shadow)"><rect x="2780" y="1035" width="600" height="314" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M2793,1035 H3367 Q3380,1035 3380,1048 V1088 H2780 V1048 Q2780,1035 2793,1035" fill="#eaf0f6"/>
+<rect x="2780" y="1086" width="600" height="2" fill="#778da6"/>
+<text x="3080.0" y="1070" class="tblTitle" text-anchor="middle">fault_codes</text>
+<line x1="2846" y1="1088" x2="2846" y2="1349" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="3133" y1="1088" x2="3133" y2="1349" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="2790" y="1093" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="2812.5" y="1107.3" text-anchor="middle" class="key">PK</text>
+<text x="2861" y="1108" class="cell" font-weight="700">fault_id</text>
+<text x="3148" y="1108" class="type">INT UNSIGNED</text>
+<rect x="2781" y="1117" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1117" x2="3380" y2="1117" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="2790" y="1122" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="2812.5" y="1136.3" text-anchor="middle" class="key">FK</text>
+<text x="2861" y="1137" class="cell" >car_id</text>
+<text x="3148" y="1137" class="type">INT UNSIGNED</text>
+<line x1="2780" y1="1146" x2="3380" y2="1146" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1166" class="cell" >fault_code</text>
+<text x="3148" y="1166" class="type">VARCHAR(20)</text>
+<rect x="2781" y="1175" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1175" x2="3380" y2="1175" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1195" class="cell" >title</text>
+<text x="3148" y="1195" class="type">VARCHAR(150)</text>
+<line x1="2780" y1="1204" x2="3380" y2="1204" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1224" class="cell" >description</text>
+<text x="3148" y="1224" class="type">TEXT</text>
+<rect x="2781" y="1233" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1233" x2="3380" y2="1233" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1253" class="cell" >detected_date</text>
+<text x="3148" y="1253" class="type">DATE</text>
+<line x1="2780" y1="1262" x2="3380" y2="1262" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1282" class="cell" >mileage_km</text>
+<text x="3148" y="1282" class="type">INT UNSIGNED</text>
+<rect x="2781" y="1291" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1291" x2="3380" y2="1291" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1311" class="cell" >status</text>
+<text x="3148" y="1311" class="type">ENUM</text>
+<line x1="2780" y1="1320" x2="3380" y2="1320" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1340" class="cell" >resolved_date</text>
+<text x="3148" y="1340" class="type">DATE</text>
+</g>
+<g aria-label="documents tábla" filter="url(#shadow)"><rect x="115" y="1610" width="600" height="256" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M128,1610 H702 Q715,1610 715,1623 V1663 H115 V1623 Q115,1610 128,1610" fill="#eaf0f6"/>
+<rect x="115" y="1661" width="600" height="2" fill="#778da6"/>
+<text x="415.0" y="1645" class="tblTitle" text-anchor="middle">documents</text>
+<line x1="181" y1="1663" x2="181" y2="1866" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="468" y1="1663" x2="468" y2="1866" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="125" y="1668" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="147.5" y="1682.3" text-anchor="middle" class="key">PK</text>
+<text x="196" y="1683" class="cell" font-weight="700">document_id</text>
+<text x="483" y="1683" class="type">INT UNSIGNED</text>
+<rect x="116" y="1692" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1692" x2="715" y2="1692" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="125" y="1697" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="147.5" y="1711.3" text-anchor="middle" class="key">FK</text>
+<text x="196" y="1712" class="cell" >car_id</text>
+<text x="483" y="1712" class="type">INT UNSIGNED</text>
+<line x1="115" y1="1721" x2="715" y2="1721" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1741" class="cell" >title</text>
+<text x="483" y="1741" class="type">VARCHAR(150)</text>
+<rect x="116" y="1750" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1750" x2="715" y2="1750" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1770" class="cell" >document_type</text>
+<text x="483" y="1770" class="type">VARCHAR(60)</text>
+<line x1="115" y1="1779" x2="715" y2="1779" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1799" class="cell" >file_path</text>
+<text x="483" y="1799" class="type">VARCHAR(255)</text>
+<rect x="116" y="1808" width="598" height="29" fill="#f8fafc"/>
+<line x1="115" y1="1808" x2="715" y2="1808" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1828" class="cell" >expiration_date</text>
+<text x="483" y="1828" class="type">DATE</text>
+<line x1="115" y1="1837" x2="715" y2="1837" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="196" y="1857" class="cell" >uploaded_at</text>
+<text x="483" y="1857" class="type">TIMESTAMP</text>
+</g>
+<g aria-label="reminders tábla" filter="url(#shadow)"><rect x="2780" y="1490" width="600" height="285" rx="13" fill="#ffffff" stroke="#c4d0de" stroke-width="1.2"/>
+<path d="M2793,1490 H3367 Q3380,1490 3380,1503 V1543 H2780 V1503 Q2780,1490 2793,1490" fill="#eaf0f6"/>
+<rect x="2780" y="1541" width="600" height="2" fill="#778da6"/>
+<text x="3080.0" y="1525" class="tblTitle" text-anchor="middle">reminders</text>
+<line x1="2846" y1="1543" x2="2846" y2="1775" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<line x1="3133" y1="1543" x2="3133" y2="1775" stroke="#d9e0e7" stroke-width="1.2" fill="none"/>
+<rect x="2790" y="1548" width="45" height="19" rx="5" fill="#1f456b"/>
+<text x="2812.5" y="1562.3" text-anchor="middle" class="key">PK</text>
+<text x="2861" y="1563" class="cell" font-weight="700">reminder_id</text>
+<text x="3148" y="1563" class="type">INT UNSIGNED</text>
+<rect x="2781" y="1572" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1572" x2="3380" y2="1572" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<rect x="2790" y="1577" width="45" height="19" rx="5" fill="#087f8c"/>
+<text x="2812.5" y="1591.3" text-anchor="middle" class="key">FK</text>
+<text x="2861" y="1592" class="cell" >car_id</text>
+<text x="3148" y="1592" class="type">INT UNSIGNED</text>
+<line x1="2780" y1="1601" x2="3380" y2="1601" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1621" class="cell" >title</text>
+<text x="3148" y="1621" class="type">VARCHAR(150)</text>
+<rect x="2781" y="1630" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1630" x2="3380" y2="1630" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1650" class="cell" >description</text>
+<text x="3148" y="1650" class="type">TEXT</text>
+<line x1="2780" y1="1659" x2="3380" y2="1659" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1679" class="cell" >due_date</text>
+<text x="3148" y="1679" class="type">DATE</text>
+<rect x="2781" y="1688" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1688" x2="3380" y2="1688" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1708" class="cell" >due_mileage_km</text>
+<text x="3148" y="1708" class="type">INT UNSIGNED</text>
+<line x1="2780" y1="1717" x2="3380" y2="1717" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1737" class="cell" >status</text>
+<text x="3148" y="1737" class="type">ENUM</text>
+<rect x="2781" y="1746" width="598" height="29" fill="#f8fafc"/>
+<line x1="2780" y1="1746" x2="3380" y2="1746" stroke="#edf1f5" stroke-width="1.0" fill="none"/>
+<text x="2861" y="1766" class="cell" >created_at</text>
+<text x="3148" y="1766" class="type">TIMESTAMP</text>
+</g>
+<line x1="100" y1="1918" x2="3400" y2="1918" stroke="#314258" stroke-width="2"/>
+<text x="118" y="1958" class="footer">Jelmagyarázat:</text>
+<rect x="330" y="1935" width="49" height="26" rx="5" fill="#1f456b"/><text x="354.5" y="1953" class="key" text-anchor="middle">PK</text><text x="392" y="1956" class="footer">elsődleges kulcs</text>
+<rect x="710" y="1935" width="49" height="26" rx="5" fill="#087f8c"/><text x="734.5" y="1953" class="key" text-anchor="middle">FK</text><text x="772" y="1956" class="footer">idegen kulcs</text>
+<rect x="1020" y="1935" width="49" height="26" rx="5" fill="#8160a2"/><text x="1044.5" y="1953" class="key" text-anchor="middle">UQ</text><text x="1082" y="1956" class="footer">egyedi mező</text>
+<text x="1450" y="1956" class="footer">1 — N: egy rekordhoz több kapcsolódó rekord tartozhat</text>
+<text x="3375" y="1956" class="footer" text-anchor="end">Forrás: CarBook_adatbazis.sql</text>
+</svg>
