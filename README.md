@@ -22,9 +22,9 @@ Az adatbázis neve: `carbook_db`. A séma a `database/schema.sql` fájlban talá
 
 ### Fejlesztők
 
-Toth Attila - Fullstack
-Diós Dávid - Frontend
-Szakala Zsombor - Backend
+- Toth Attila - Fullstack
+- Diós Dávid - Frontend
+- Szakala Zsombor - Backend
 
 ---
 
