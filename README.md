@@ -20,6 +20,12 @@ HTML · CSS · JavaScript · PHP · MySQL
 
 Az adatbázis neve: `carbook_db`. A séma a `database/schema.sql` fájlban található.
 
+### Fejlesztők
+
+Toth Attila - Fullstack
+Diós Dávid - Frontend
+Szakala Zsombor - Backend
+
 ---
 
 ## English
@@ -41,3 +47,9 @@ HTML · CSS · JavaScript · PHP · MySQL
 ### Database
 
 The database is named `carbook_db`. Its schema is located in the `database/schema.sql` file.
+
+### Developers 
+
+Attila Toth - Fullstack
+Dávid Diós - Frontend
+Zsombor Szakala - Backend
