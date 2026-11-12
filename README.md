@@ -50,6 +50,6 @@ The database is named `carbook_db`. Its schema is located in the `database/schem
 
 ### Developers 
 
-Attila Toth - Fullstack
-Dávid Diós - Frontend
-Zsombor Szakala - Backend
+- Attila Toth - Fullstack
+- Dávid Diós - Frontend
+- Zsombor Szakala - Backend
