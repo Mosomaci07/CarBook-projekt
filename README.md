@@ -22,7 +22,7 @@ Az adatbázis neve: `carbook_db`. A séma a `database/schema.sql` fájlban talá
 
 ### Fejlesztők
 
-- Toth Attila - Fullstack
+- Toth Attila - Fullstack(PM)
 - Diós Dávid - Frontend
 - Szakala Zsombor - Backend
 
@@ -50,6 +50,6 @@ The database is named `carbook_db`. Its schema is located in the `database/schem
 
 ### Developers 
 
-- Attila Toth - Fullstack
+- Attila Toth - Fullstack (PM)
 - Dávid Diós - Frontend
 - Zsombor Szakala - Backend
